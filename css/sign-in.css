@@ -1,0 +1,66 @@
+﻿
+
+@font-face {
+    font-family: MontserratBold;
+    src:url(../fonts/Montserrat-Bold.otf); 
+   }
+
+
+
+.sign-in-page{
+	padding: 0px 20px;
+    max-width:500px;
+    margin:0 auto;
+}
+
+.sign-in-page img {
+    width:300px;
+    height:300px;
+    display:block;
+    margin:0px auto;
+}
+
+.sign-in-ctrl-common{	
+    display:flex;
+    margin: 10px 0px;
+}
+
+.sign-in-ctrl-common input{    
+        border: none;
+        outline: none;
+        font-size: 18px;       
+        color:white;
+        cursor: pointer;
+		text-align: center;
+		width:100%;
+}
+
+
+.sign-in-button input{
+	background-color: #ff3334;
+	padding: 15px 0px;
+	border-radius: 40px;	
+	font-family: MontserratBold;
+ }
+    
+
+.sign-in-field{
+    font-family:MontserratRegular;
+}
+
+.sign-in-field .sign-in-ctrl-common input{
+    background-color:#051e42;
+    border-radius: 40px;
+    padding: 15px 25px;    
+	cursor: text;
+}
+
+.sign-in-field label{    
+    text-transform:uppercase;
+    color:#2a5ea4;
+    font-size:14px;
+}
+
+.sign-in-button {
+	margin-top: 10%;
+}

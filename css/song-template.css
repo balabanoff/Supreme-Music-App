@@ -1,0 +1,70 @@
+﻿
+
+
+/*######################       TEMPLATE SYLE     ####################*/
+
+
+
+main {
+    /*margin-bottom:300px;*/
+    height:73%;    
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+    
+    main .song{
+        cursor:pointer;       
+        display:flex;    
+        align-items:center;
+        padding:20px 0px;
+        font-size:14px;
+        border-bottom:2px solid #14264a;
+    }
+         .selectedSongTouchStyle{
+             color:#ff3334;
+         }
+         .selectedSongClickStyle:hover{
+             color:#ff3334;
+         }
+         
+        main .song .composition-title{
+            flex-grow:6;
+            max-width:75%;
+            width:75%;
+        }
+            main .song .num,
+            main .song .artist-name{
+                 color:#2a5ea4;
+            }
+
+            main .song .num,
+            main .song .song-duration{
+                width:12.5%;
+                max-width:12.5%;
+                flex-grow:1;
+            }
+
+            main .song .artist-name,
+            main .song .song-name{
+                padding-left:10px;
+                max-width:70%;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;                     
+            }
+
+   ::-webkit-scrollbar{
+       background-color:transparent;
+   }
+   ::-webkit-scrollbar-thumb{       
+       background-color:rgba(255,255,255,0.1);
+   }
+ /*#################################################################*/  
+
+ 
+.hoverElemStyle .num,
+.hoverElemStyle .composition-title .artist-name,
+.hoverElemStyle .composition-title .song-name,
+.hoverElemStyle .song-duration{
+    color: #ff3334;
+}

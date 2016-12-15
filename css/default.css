@@ -1,0 +1,27 @@
+﻿html{
+    height:100%;
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src:url(../fonts/Montserrat-Regular.otf);
+   }
+
+body{
+    background-image:url('../images/mark-up-img/bg.png');
+    background-size:contain;
+    height:100%;
+    color:white;
+}
+
+ /*####################     BACKGROUND WAVES    ##################*/
+.waves {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:36%;
+    min-height:225px;
+    background-image:url(../images/mark-up-img/waves3.png);
+    z-index:-1;
+}
+/*#################################################################*/
