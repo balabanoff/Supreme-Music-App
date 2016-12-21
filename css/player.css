@@ -12,7 +12,7 @@
     bottom:135px;
     z-index:2;
     border: none;
-}
+
     .menu:hover{
         background-position-x:-27px;
     }
@@ -21,6 +21,8 @@
     .search:focus{
         outline: none;
     }
+}
+
 
 .search{
 
@@ -61,6 +63,7 @@
     bottom:0px;
     width:100%;
     padding: 20px 0px;
+    max-width:1000px;
     /*border-top: 1px solid #14264a;*/
 }
 
@@ -93,6 +96,8 @@
         display:flex;
         align-items:center;
         padding:5px 0px;
+        max-width: 80%;
+        margin: 0 auto;
     }
         .player-controls #current-time,
         .player-controls #current-song-duration,
@@ -108,7 +113,7 @@
             align-items:center;
             width:70%;
         }
-            .player-controls-buttons div{
+            .player-controls-buttons .btn{
                 background-size:cover;
                 width:36px;
                 height:36px;
@@ -134,11 +139,15 @@
                 }
 
             .player-controls-buttons-play{
-                background-image:url(../images/mark-up-img/play.png);
+                width:70px;
+                height:70px;
+                background-size:cover;
+                cursor: pointer;
+                background-image:url(../images/mark-up-img/play-big.png);
             }
 
                 .player-controls-buttons-play:hover{
-                    background-position-x:-36px;
+                    background-position-x:-70px;
                 }
 
             .player-controls-buttons-pause{

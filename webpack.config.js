@@ -1,13 +1,17 @@
 module.exports = {
-  entry:"./index.js",
+  entry:'./index.js',
   output:{
-    filename:"bundle.js"
+    filename:'bundle.js'
   },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
-        loader: "babel-loader"
+        loader: 'babel-loader'
+      },
+      {
+        test: /(\.css|\.scss)$/,
+        loaders: ['style', 'css?sourceMap', 'postcss', 'sass?sourceMap']
       }
     ]
   },
